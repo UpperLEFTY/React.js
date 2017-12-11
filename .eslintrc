@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "essencealexander/best-practices",
+    "essencealexander/possible-errors",
+    "essencealexander/es6/best-practices",
+    "essencealexander/es6/possible-errors",
+    "essencealexander/import/best-practices",
+    "essencealexander/import/possible-errors",
+    "essencealexander/mocha",
+    "essencealexander/react",
+    "essencealexander/webpack",
+    "essencealexander/jsx-a11y"
+  ],
+  "rules": {
+    "mocha/no-hooks": 0,
+    "react/prefer-stateless-function": 0,
+    "no-invalid-this": 0,
+  },
+}
